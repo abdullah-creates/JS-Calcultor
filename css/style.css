@@ -1,0 +1,152 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: #a6a2a2; */
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_1280.png);
+    opacity: 95%;
+    font-family: poppins;
+}
+
+h1{
+    text-align: center;
+    margin: 0.5vw;
+}
+
+h1:hover{
+    color: #FEB602;
+}
+
+.container{
+    height: 40vw;
+    width: 28vw;
+    background-color: #1c1c1c;
+    margin: 1.5vw auto;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+#screen{
+    height: 10vw;
+    width: 28vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #6f66664d;
+    border: none;
+    color: #FEB602;
+    font-size: 4.5vw;
+    padding: 1vw;
+    outline: none;
+}
+
+.column-1,.column-2,.column-3,.column-4{
+    display: inline-block;
+}
+
+.box-1{
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 40px;
+    background-color: #474747;
+    margin: 1.4vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.8vw;
+    font-size: 2vw;
+}
+
+.box-1:hover{
+    background-color: #47474796;
+}
+
+.box-2{
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 40px;
+    background-color: #FEB602;
+    margin: 1.4vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.8vw;
+    font-size: 2vw;
+}
+
+.box-2:hover{
+    background-color: #feb602b5;
+}
+
+.box-3{
+    height: 3.8vw;
+    width: 3.8vw;
+    border-radius: 40px;
+    background-color: #848181;
+    margin: 1.4vw;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.8vw;
+    font-size: 2vw;
+}
+
+.box-3:hover{
+    background-color: #848181a8;
+}
+
+@media (max-width: 500px) {
+    .container{
+        height: 155vw;
+        width: 90vw;
+        margin: 5.5vw auto;
+    }
+
+    #screen {
+        height: 40vw;
+        width: 90vw;
+        font-size: 15vw;
+        padding: 5vw;
+    }
+
+    .box-1{
+        height: 16vw;
+        width: 16vw;
+        margin: 2.8vw;
+        margin-top: 6vw;
+        font-size: 6vw;
+    }
+
+    .box-2{
+        height: 16vw;
+        width: 16vw;
+        margin: 2.8vw;
+        margin-top: 6vw;
+        font-size: 6vw;
+    }
+
+    .box-3{
+        height: 16vw;
+        width: 16vw;
+        margin: 2.8vw;
+        margin-top: 6vw;
+        font-size: 6vw;
+    }
+}
